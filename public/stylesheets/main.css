@@ -1,0 +1,312 @@
+/**
+ * Only Main.less will have CSS output
+ */
+/* ==========================================================================
+   								>	Imports
+   ========================================================================== */
+/**
+ * Global Reset of all HTML Elements
+ *
+ * Resetting all of our HTML Elements ensures a smoother
+ * visual transition between browsers. If you don't believe me,
+ * try temporarily commenting out this block of code, then go
+ * and look at Mozilla versus Safari, both good browsers with
+ * a good implementation of CSS. The thing is, all browser CSS
+ * defaults are different and at the end of the day if visual
+ * consistency is what we're shooting for, then we need to
+ * make sure we're resetting all spacing elements.
+ *
+ */
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+button,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+/**
+ * Helpers provide all the APIs
+ */
+/* ==========================================================================
+   								> Colour Schemes
+   ========================================================================== */
+/* ==========================================================================
+                           > Background Colors
+   ========================================================================== */
+/* ==========================================================================
+                              > Typography
+   ========================================================================== */
+/*                            >> Sizes
+   ========================================================================== */
+/*                            >> Colors
+   ========================================================================== */
+/* ==========================================================================
+                        > Spacing
+   ========================================================================== */
+/* ==========================================================================
+                        > Behaviors
+   ========================================================================== */
+/*                      >> Rounded Corners
+   ========================================================================== */
+/* ==========================================================================
+								> Responsive Modes
+   ========================================================================== */
+/* 								>> 	Large Device Only
+									(>= 1200px)
+   ========================================================================== */
+/* 								>> Medium Device Only
+								   (>= 992px and <1200px)
+   ========================================================================== */
+/* 								>> Small Device Only
+								   (>= 768px and <992px)
+   ========================================================================== */
+/* 								>> Extra Small Device Only
+								   (<768px)
+   ========================================================================== */
+/* 								>> Medium Device And Higher
+								   (>= 992px)
+   ========================================================================== */
+/* 								>> Small Device And Higher
+								   (>= 992px)
+   ========================================================================== */
+/* 								>> Medium Device And Lower
+								   (< 1200px)
+   ========================================================================== */
+/* 								>> Small Device And Lower
+								   (< 992px)
+   ========================================================================== */
+/* ==========================================================================
+   								> Colour Schemes
+   ========================================================================== */
+/* ==========================================================================
+								> Typography
+   ========================================================================== */
+/* 								>> Add Font Families
+   ========================================================================== */
+@font-face {
+  font-family: 'futura_hv_btheavy';
+  src: url('futurah-webfont.eot');
+  src: url('futurah-webfont.eot?#iefix') format('embedded-opentype'), url('futurah-webfont.woff2') format('woff2'), url('futurah-webfont.woff') format('woff'), url('futurah-webfont.ttf') format('truetype'), url('futurah-webfont.svg#futura_hv_btheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'futura_xblk_btextra_black';
+  src: url('futuraxk-webfont.eot');
+  src: url('futuraxk-webfont.eot?#iefix') format('embedded-opentype'), url('futuraxk-webfont.woff2') format('woff2'), url('futuraxk-webfont.woff') format('woff'), url('futuraxk-webfont.ttf') format('truetype'), url('futuraxk-webfont.svg#futura_xblk_btextra_black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 								>> Font-families
+   ========================================================================== */
+.font-open-sans,
+body {
+  font-family: 'Open Sans';
+}
+.font-futura,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'futura_hv_btheavy';
+}
+.font-futura-extra-black {
+  font-family: 'futura_xblk_btextra_black';
+}
+/* 								>> Font Sizes
+   ========================================================================== */
+.font-size-8pt,
+.font-size-11px {
+  font-size: 11px;
+}
+.font-size-10pt,
+.font-size-13px,
+.button-md {
+  font-size: 13px;
+}
+.font-size-11pt,
+.font-size-15px,
+h6 {
+  font-size: 15px;
+}
+.font-size-12pt,
+.font-size-16px,
+h5,
+.button-lg {
+  font-size: 16px;
+}
+.font-size-13pt,
+.font-size-17px,
+h4 {
+  font-size: 17px;
+}
+.font-size-14pt,
+.font-size-19px,
+h3 {
+  font-size: 19px;
+}
+.font-size-16pt,
+.font-size-22px,
+h2 {
+  font-size: 22px;
+}
+.font-size-22pt,
+.font-size-22px,
+h1 {
+  font-size: 29px;
+}
+/* 								>> Font Colors
+   ========================================================================== */
+.font-mydin-yellow,
+button {
+  color: #fff000;
+}
+/* 								>> Set Global Font Styles
+   ========================================================================== */
+/* ==========================================================================
+   								> Headings
+   ========================================================================== */
+/* ==========================================================================
+								> Global Elements
+   ========================================================================== */
+/* 								>> Buttons
+   ========================================================================== */
+button {
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 35px 35px 35px 35px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 35px 35px 35px 35px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 35px 35px 35px 35px;
+  background-color: #21409a;
+  padding: 10px 10px 10px 10px;
+}
+.button-lg {
+  padding: 13px 35px 13px 35px;
+}
+.button-md {
+  padding: 7px 11px 7px 11px;
+}
+/* 								>> Radio Buttons
+   ========================================================================== */
+/* 								>> Checkboxes
+   ========================================================================== */
+/* 								>> Labels
+   ========================================================================== */
+.label-round {
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 50% 50% 50% 50%;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 50% 50% 50% 50%;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 50% 50% 50% 50%;
+}
