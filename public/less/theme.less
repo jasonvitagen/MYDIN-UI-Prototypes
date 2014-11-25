@@ -9,6 +9,12 @@
 	@mydin-silver : #f1f1f1;
    	@mydin-dark-grey : #363636;
 
+/* ==========================================================================
+   								> Reusable Styling
+   ========================================================================== */
+	.bg-mydin-blue {
+		.background-color(@mydin-blue);
+	}
 
 /* ==========================================================================
 								> Typography
@@ -154,8 +160,8 @@
    ========================================================================== */
 	button {
 		.rounded-corner(35px);
-		.background-color(@mydin-blue);
 		.padding(10px);
+		&:extend(.bg-mydin-blue);
 		&:extend(.font-mydin-yellow);
 	}
 
@@ -183,6 +189,9 @@
 
 /* 								>> Labels
    ========================================================================== */
-	.label-round {
-		.rounded-corner(50%);
+	.label-date-round {
+		.rounded-corner(35px);
+		.padding(5px);
+		&:extend(.bg-mydin-blue);
+		.font-color(@mydin-yellow);
 	}
